@@ -1,3 +1,5 @@
+//part 01
+
 // Taklif 2
 
 
@@ -41,3 +43,37 @@ console.table(['Berlin', 'Alaa', 'Fabio']);
 
 // console.log("Iam In Console");
 // document.write("Iam In Page");
+
+
+
+//part 02
+
+//takalif 1
+
+let numberOne = 10;
+let numberTwo = 20;
+console.log(numberOne + '' + numberTwo);
+console.log(typeof(numberOne + '' + numberTwo));
+// Template Literals
+console.log(`${numberOne}${numberTwo}`);
+console.log(typeof `${numberOne}${numberTwo}`);
+console.log('10\n20');
+console.log(`${numberTwo}\n${numberOne}`);
+//takalif 2 
+
+console.log(elzero.innerHTML);
+console.log(typeof elzero);
+//  <div id = "elzero" > object < /div>
+
+//takalif 3
+console.log(`I'm In
+\\\\
+Love \\\\ \"\"\" \'\'\'
+\+\+ With \+\+
+\\\"\"\"\\\"\"\"
+\"\"JavaScript\"\"\`
+        `);
+//takalif 4
+let a = 21;
+let b = 20;
+console.log(`_${a}_${b}${a}_${b}${b+ (a-b)}_${(a-b)*b}${a}_${b}`);
